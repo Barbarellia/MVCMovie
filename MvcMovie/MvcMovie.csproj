@@ -13,6 +13,8 @@
     <Compile Remove="Migrations\20200930110535_Rating.Designer.cs" />
     <Compile Remove="Migrations\20200930112744_Rating.cs" />
     <Compile Remove="Migrations\20200930112744_Rating.Designer.cs" />
+    <Compile Remove="Migrations\20200930112944_Ratings.cs" />
+    <Compile Remove="Migrations\20200930112944_Ratings.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

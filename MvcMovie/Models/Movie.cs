@@ -33,5 +33,10 @@ namespace MvcMovie.Models
         [Required]
         public string Rating { get; set; }
 
+        [Display(Name ="Show Date")]
+        [DataType(DataType.DateTime)]
+        [DisplayFormat(DataFormatString = "{0:dd.MM.yyyy HH:mm}", ApplyFormatInEditMode = false)]
+        public DateTime ShowDate { get; set; }
+
     }
 }
