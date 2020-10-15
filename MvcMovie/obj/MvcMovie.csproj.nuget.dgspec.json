@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#Projects\\MVCMovie\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\user\\Desktop\\VueProject\\ShoppingList\\MVCMovie\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "D:\\C#Projects\\MVCMovie\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\user\\Desktop\\VueProject\\ShoppingList\\MVCMovie\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#Projects\\MVCMovie\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\VueProject\\ShoppingList\\MVCMovie\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "D:\\C#Projects\\MVCMovie\\MvcMovie\\MvcMovie.csproj",
-        "packagesPath": "C:\\Users\\basia\\.nuget\\packages\\",
-        "outputPath": "D:\\C#Projects\\MVCMovie\\MvcMovie\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\VueProject\\ShoppingList\\MVCMovie\\MvcMovie\\MvcMovie.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\VueProject\\ShoppingList\\MVCMovie\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\basia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,6 +70,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -75,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
